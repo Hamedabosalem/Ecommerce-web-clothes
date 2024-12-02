@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <title>Ecommerce shose</title>
+</head>
+<body>
+    <nav id="header">
+        <a href=""><img src="./image/logo.png"  class="logo" alt=""></a>
+        <ul id="navbar">
+            <li><a  href="home.html">Home</a></li>
+            <li><a class="active" href="shope.html">shope</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact us</a></li>
+            <li><a href="cart.html"><i  id="shopping"class="fa-solid fa-bag-shopping bag"></i></a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </nav>
+    <section id="products" class="section-p1">
+
+        <div id="single">
+            <img src="./image/f1.jpg" width="100%" id="mainimg" alt="">
+            <div class="small-groub">
+                <div class="small-col">
+                    <img src="./image/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="./image/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="./image/f5.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-col">
+                    <img src="./image/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="details">
+            <h6> home / T-shirt</h6>
+            <h4>Man's faxhion T-shirt</h4>
+            <h2>$139.00</h2>
+            <select >
+                <option >select size</option>
+                <option >xl</option>
+                <option >xxl</option>
+                <option >small</option>
+            </select>
+            <input type="numer" value="1">
+            <button class="normal">add to cart</button>
+            <h4>product details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia atque, dignissimos perspiciatis cupiditate reprehenderit illum ut consequatur et mollitia odio perferendis voluptatem veritatis alias unde iure rerum non tempore cum, modi soluta? Perspiciatis atque odio voluptatibus expedita, mollitia repudiandae quos veniam, dolorem velit corrupti labore delectus vitae ipsum, dignissimos nesciunt!</span>
+        </div>
+    </section>
+    <section id="product" class="section-p1">
+        <h2> featured products</h2>
+        <p>summer collection new modern design</p>
+        <div class="container">
+            <div class="child">
+                <img src="./image/POLOANDSHirt_01_05e43ee6-34ae-43fd-9bf5-4c3f6fbc20cc_1270x.webp" alt="">
+                <div class="des">
+                    <span>Town Team</span>
+                    <h5> cartoon Astronaut polo</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="child">
+                <img src="./image/clothes/n2.jpg" alt="">
+                <div class="des">
+                    <span>Town Team</span>
+                    <h5> cartoon Astronaut polo</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="child">
+                <img src="./image/clothes/n3.jpg" alt="">
+                <div class="des">
+                    <span>Town Team</span>
+                    <h5> cartoon Astronaut polo</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="child">
+                <img src="./image/clothes/f5 (1).jpg" alt="">
+                <div class="des">
+                    <span>Town Team</span>
+                    <h5> cartoon Astronaut polo</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+        </div>
+    </section>
+   
+    <script >
+        var x=document.getElementById("mainimg");
+        var y=document.getElementsByClassName("small-img")
+        y[0].onclick=function(){
+            x.src=y[0].src
+        }
+        y[1].onclick=function(){
+            x.src=y[1].src
+        }
+        y[2].onclick=function(){
+            x.src=y[2].src
+        }
+        y[3].onclick=function(){
+            x.src=y[3].src
+        }
+
+    </script>
+
+</body>
+<footer class="section-p1">
+    <div class="col">
+        <img  class="logo4"src="./image/logo.png" alt="">
+        <h4>contact</h4>
+        <p> <strong>address:</strong>egypt government algharbiya samnoud</p>
+        <p> <strong>phone:</strong>+20 01205074995</p>
+        <div class="follow">
+            <h4>follow us</h4>
+            <div class="icon0">
+                <i class="fab fa-facebook-f" ></i>
+                <i class="fab fa-twitter" ></i>
+                <i class="fab fa-instagram" ></i>
+                <i class="fab fa-youtube" ></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4> about</h4>
+        <a href="#"> about us</a>
+        <a href="#"> deliver information</a>
+        <a href="#"> privacy policy</a>
+        <a href="#"> terms & conditions</a>
+        <a href="#"> contact us</a>
+    </div>
+    <div class="col">
+        <h4> my account</h4>
+        <a href="#"> sign in</a>
+        <a href="#">veiw cart</a>
+        <a href="#"> my wishlist</a>
+        <a href="#"> track my order</a>
+        <a href="#">help</a>
+    </div>
+    <div class=" col install">
+        <h4> install app</h4>
+        <p> from app store or google play</p>
+        <div class="row">
+            <img src="./image/app.jpg" alt="">
+            <img src="./image/play.jpg" alt="">
+        </div>
+        <p>secured payment geteways</p>
+        <img src="./image/pay.png" alt="">
+    </div>
+
+    <div class="copy-right">
+        <p> © 2024,hamed abosalem- html css Ecommerce template</p>
+    </div>
+</footer>
+
+</html>
